@@ -37,7 +37,7 @@ function SomeComponent() {
 
 ...
 ```
-Now we're ready to use the state property and the setState method in our JSX. We can simply call upon _counter_, which will display its current value. To use the method, we can create an onClick listener in a button and set its value equal to a callback function containing the _setCounter_ method. We will then pass in an argument, which will replace the current value of _counter_. Note that this will completely overwrite the existing value of _counter_.
+Now we're ready to use the state property and the setState method in our JSX. We can simply call upon _counter_, which will display its current value. To use the method, we can create an onClick listener in a button and set its value equal to a function implicitly returning the _setCounter_ method. We need this to be a callback function so we can pass in an argument, otherwise it'll run on page load. This will replace the current value of _counter_ (note: this will completely overwrite its previous value).
 
 ```javascript
 ...
