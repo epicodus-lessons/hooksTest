@@ -4,7 +4,7 @@ In early 2019, React released version 16.8 which included the much-anticipated i
 
 This short lesson will introduce you to the React useState hook by walking through a very simple counter app. Our app will include a button which increases the value of a counter, a button to show and hide, and a display of the counter's value. Let's jump right in.
 
-The first thing we need to do is add _{ useState }_ to our import statement at the top of the document. We'll also set up a basic functional component.
+The first thing we need to do is add `{ useState }` to our import statement at the top of the document. We'll also set up a basic functional component.
 
 ```javascript
 import React, { useState } from 'react';
