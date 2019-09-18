@@ -1,6 +1,6 @@
 # React useState Hook
 
-In early 2019, React released version 16.8 which included the much-anticipated introduction of hooks. Hooks were developed as a solution to a problem programmers had been dealing with since the outset of React: how to use state in a functional component without having to completely refactor it into a class component?
+In early 2019, React released version 16.8 which included the much-anticipated introduction of hooks. Hooks were developed as a solution to a problem programmers had been dealing with since the outset of React: how to use state in a functional component without having to completely refactor it into a class component.
 
 This short lesson will introduce you to the React useState hook by walking through a very simple counter app. Our app will include a button which increases the value of a counter, a button to show and hide, and a display of the counter's value. Let's jump right in.
 
